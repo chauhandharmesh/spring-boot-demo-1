@@ -1,0 +1,157 @@
+2023-04-06T10:57:57.340+05:30  INFO 5364 --- [restartedMain] c.d.s.SpringBootApp1Application          : Starting SpringBootApp1Application using Java 17.0.4.1 with PID 5364 (C:\MyWorkspace\springbootapp1\springbootapp1\springboot-ws\build\classes\java\main started by Tiaa User in C:\MyWorkspace\springbootapp1\springbootapp1)
+2023-04-06T10:57:57.346+05:30  INFO 5364 --- [restartedMain] c.d.s.SpringBootApp1Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-06T10:57:57.534+05:30  INFO 5364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-06T10:57:57.535+05:30  INFO 5364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-06T10:57:58.890+05:30  INFO 5364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-06T10:57:58.962+05:30  INFO 5364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 MongoDB repository interfaces.
+2023-04-06T10:57:59.901+05:30  INFO 5364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (https)
+2023-04-06T10:57:59.917+05:30  INFO 5364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-06T10:57:59.917+05:30  INFO 5364 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-06T10:58:00.015+05:30  INFO 5364 --- [restartedMain] o.a.c.c.C.[.[.[/springbootapp1]          : Initializing Spring embedded WebApplicationContext
+2023-04-06T10:58:00.016+05:30  INFO 5364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2453 ms
+2023-04-06T10:58:00.417+05:30  INFO 5364 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17.0.4.1+1-LTS-2"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='dharmesh', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@5f0eeab3]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=dharmeshclustor1.p5ptfal.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-u0z5bm-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-04-06T10:58:00.466+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-srv-dharmeshclustor1.p5ptfal.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017 to client view of cluster
+2023-04-06T10:58:00.495+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-srv-dharmeshclustor1.p5ptfal.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017 to client view of cluster
+2023-04-06T10:58:00.496+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-srv-dharmeshclustor1.p5ptfal.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017 to client view of cluster
+2023-04-06T10:58:00.842+05:30  INFO 5364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-06T10:58:01.309+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=336601900, setName='atlas-u0z5bm-shard-0', canonicalAddress=ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017, hosts=[ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017], passives=[], arbiters=[], primary='ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000001d9, setVersion=7, topologyVersion=TopologyVersion{processId=642e06b0aea59446c8ccc652, counter=6}, lastWriteDate=Thu Apr 06 10:58:01 IST 2023, lastUpdateTimeNanos=316770380566000}
+2023-04-06T10:58:01.310+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=133316100, setName='atlas-u0z5bm-shard-0', canonicalAddress=ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, hosts=[ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017], passives=[], arbiters=[], primary='ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=642e07a50da9995d6b3b0915, counter=3}, lastWriteDate=Thu Apr 06 10:58:01 IST 2023, lastUpdateTimeNanos=316770380927600}
+2023-04-06T10:58:01.311+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=338360900, setName='atlas-u0z5bm-shard-0', canonicalAddress=ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, hosts=[ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017], passives=[], arbiters=[], primary='ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=642e059e389ba0b8e379f866, counter=4}, lastWriteDate=Thu Apr 06 10:58:01 IST 2023, lastUpdateTimeNanos=316770382347100}
+2023-04-06T10:58:01.315+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017 with max election id 7fffffff00000000000001d9 and max set version 7
+2023-04-06T10:58:02.524+05:30  INFO 5364 --- [restartedMain] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-8080], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/MyWorkspace/springbootapp1/springbootapp1/springboot-ws/build/resources/main/certificate/keystore.p12] using alias [tomcat] and with trust store [null]
+2023-04-06T10:58:02.553+05:30  INFO 5364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (https) with context path '/springbootapp1'
+2023-04-06T10:58:02.557+05:30  INFO 5364 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-04-06T10:58:02.646+05:30  INFO 5364 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1203f2f2:0/SimpleConnection@58493abc [delegate=amqp://guest@127.0.0.1:5672/, localPort=52059]
+2023-04-06T10:58:02.655+05:30  INFO 5364 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring-boot) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-04-06T10:58:02.656+05:30  INFO 5364 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (employee) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-04-06T10:58:02.734+05:30  INFO 5364 --- [restartedMain] c.d.s.SpringBootApp1Application          : Started SpringBootApp1Application in 6.215 seconds (process running for 6.941)
+2023-04-06T10:58:02.980+05:30  INFO 5364 --- [restartedMain] c.d.s.SpringBootApp1Application          : Load data into mongo collection, Current Employee collection size: 60
+2023-04-06T11:34:26.768+05:30  WARN 5364 --- [AMQP Connection 127.0.0.1:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occurred (Exception message: Connection reset)
+2023-04-06T11:34:27.079+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-04-06T11:34:27.079+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-04-06T11:34:27.079+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:699) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:577) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:413) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:372) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:226) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:158) ~[mongodb-driver-core-4.8.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:113) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:138) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:716) ~[mongodb-driver-core-4.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:574) ~[mongodb-driver-core-4.8.2.jar:na]
+	... 5 common frames omitted
+
+2023-04-06T11:34:27.193+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=55440900, setName='atlas-u0z5bm-shard-0', canonicalAddress=ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, hosts=[ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017], passives=[], arbiters=[], primary='ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=642e059e389ba0b8e379f866, counter=4}, lastWriteDate=Thu Apr 06 11:34:27 IST 2023, lastUpdateTimeNanos=318956263773300}
+2023-04-06T11:34:27.249+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36433000, setName='atlas-u0z5bm-shard-0', canonicalAddress=ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017, hosts=[ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017], passives=[], arbiters=[], primary='ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000001d9, setVersion=7, topologyVersion=TopologyVersion{processId=642e06b0aea59446c8ccc652, counter=6}, lastWriteDate=Thu Apr 06 11:34:27 IST 2023, lastUpdateTimeNanos=318956321705600}
+2023-04-06T11:34:27.251+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017 with max election id 7fffffff00000000000001d9 and max set version 7
+2023-04-06T11:34:27.386+05:30  INFO 5364 --- [cluster-ClusterId{value='642e5860c440e5010a1fe851', description='null'}-ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25373700, setName='atlas-u0z5bm-shard-0', canonicalAddress=ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, hosts=[ac-wznnujo-shard-00-00.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-01.p5ptfal.mongodb.net:27017, ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017], passives=[], arbiters=[], primary='ac-wznnujo-shard-00-02.p5ptfal.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=642e07a50da9995d6b3b0915, counter=3}, lastWriteDate=Thu Apr 06 11:34:27 IST 2023, lastUpdateTimeNanos=318956457912000}
+2023-04-06T11:34:27.788+05:30  INFO 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3082fbdc: tags=[[amq.ctag-Nq-Mlzry4_M1K33yjraDJQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@618319d3 Shared Rabbit Connection: SimpleConnection@58493abc [delegate=amqp://guest@127.0.0.1:5672/, localPort=52059], acknowledgeMode=AUTO local queue size=0
+2023-04-06T11:34:27.927+05:30  INFO 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-04-06T11:34:27.969+05:30 ERROR 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:594) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:687) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareChannel(CachingConnectionFactory.java:638) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getCachedChannelProxy(CachingConnectionFactory.java:612) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getChannel(CachingConnectionFactory.java:502) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$ChannelCachingConnectionProxy.createChannel(CachingConnectionFactory.java:1393) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2231) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2198) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2178) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:459) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:443) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1984) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1959) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1384) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1230) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:59) ~[amqp-client-5.16.0.jar:5.16.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1223) ~[amqp-client-5.16.0.jar:5.16.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173) ~[amqp-client-5.16.0.jar:5.16.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:632) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:607) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:557) ~[spring-rabbit-3.0.3.jar:3.0.3]
+	... 15 common frames omitted
+
+2023-04-06T11:34:27.976+05:30  INFO 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-04-06T11:34:33.125+05:30  WARN 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2023-04-06T11:34:33.128+05:30  INFO 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@14e63c5a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-04-06T11:34:33.131+05:30  INFO 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-04-06T11:34:33.156+05:30 ERROR 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2023-04-06T11:34:33.157+05:30  INFO 5364 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]

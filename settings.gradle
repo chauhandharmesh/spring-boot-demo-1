@@ -1,0 +1,3 @@
+rootProject.name = 'springbootapp1'
+include 'springboot-common'
+include 'springboot-ws'
